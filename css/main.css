@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
+/*------------------------------------------------
+	Main Styles
+------------------------------------------------*/
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.search-div{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+input{
+	width: 100%;
+	margin: auto;
+	border-radius: 5px;
+	border: solid lightgrey 1px;
+	font-size: 16px;
+	padding: .75em;
+}
+
+.img-container{
+	width: 80%;
+	margin: 10% auto;
+	width: 250px;
+	height: 250px;
+	}
+
+.img-container img{
+	width: 250px;
+	height: 250px;
+}
+
+
+
+/*------------------------------------------------
+	Media Queries for Larger Screens
+------------------------------------------------*/
+
+/*-----------
+	Tablet
+------------*/
+
+@media screen and (min-width: 768px){
+
+
+	.img-container img{
+		max-width: 150px;
+		max-height: 150px;
+		float: left;
+		padding-left: 1em;
+	}
+
+}
+
+/*-----------
+	Desktop
+------------*/
+
+@media screen and (min-width: 1024px){
+
+
+}
