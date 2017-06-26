@@ -16,8 +16,7 @@
 }
 
 input{
-	width: 100%;
-	margin: auto;
+	width: 95%;
 	margin-top: 2em;
 	border-radius: 5px;
 	border: solid lightgrey 1px;
@@ -25,9 +24,13 @@ input{
 	padding: .75em;
 }
 
+li{
+	list-style: none;
+}
+
 .img-container{
-	width: 80%;
-	margin: 10% auto;
+	width: 100%;
+	margin: 10% 2.5%;
 
 	}
 
@@ -35,6 +38,8 @@ input{
 	width: 250px;
 	height: 250px;
 }
+
+
 
 
 
@@ -50,11 +55,10 @@ input{
 
 
 	.img-container img{
-		max-width: 150px;
-		max-height: 150px;
 		float: left;
 		padding: 1em;
 	}
+
 
 }
 
