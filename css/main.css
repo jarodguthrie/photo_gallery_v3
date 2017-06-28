@@ -4,20 +4,22 @@
 /*------------------------------------------------
 	Main Styles
 ------------------------------------------------*/
+h1{
+	margin-left: 1em;
+	font-family: 'Bubbler One', sans-serif;
+	color: #909DA6;
+}
+
 
 .container{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 }
 
-.search-div{
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-}
-
 input{
-	width: 95%;
+	width: 40%;
 	margin-top: 2em;
+	margin-left: 30%;
 	border-radius: 5px;
 	border: solid lightgrey 1px;
 	font-size: 16px;
@@ -30,7 +32,7 @@ li{
 
 .img-container{
 	width: 100%;
-	margin: 10% 2.5%;
+	margin: 2.5% 1.5%;
 
 	}
 
